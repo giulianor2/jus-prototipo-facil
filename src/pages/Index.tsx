@@ -45,14 +45,14 @@ const Index = () => {
             
             {/* Content Grid */}
             <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
-              {/* Calendar and Appointments - Left Side */}
-              <div className="lg:col-span-1">
-                <CalendarSection />
-              </div>
-              
-              {/* Appointments Table - Right Side */}
+              {/* Appointments Table - Left Side */}
               <div className="lg:col-span-3">
                 <AppointmentsTable />
+              </div>
+              
+              {/* Calendar and Appointments - Right Side */}
+              <div className="lg:col-span-1">
+                <CalendarSection />
               </div>
             </div>
           </main>
